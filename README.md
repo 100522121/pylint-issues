@@ -24,9 +24,10 @@ If pip or any other Python commands are not being recognised, it could be due to
 
 ### System Environment variables
 The existence of *python.exe* is not recognised, for which you have to find and copy its installation path. Usually you can find it in the Windows taskbar search bar (or by only pressing the Windows key) and right clicking to `open file location`. It is vital to mention that this can direct you to the Shortcut rather than the actual installation path:
-![image](https://github.com/user-attachments/assets/bfe7cdaa-2a99-410a-b51f-baa89a91135a)
+![Picturesd8](https://github.com/user-attachments/assets/0782bba2-0fd9-4a72-9076-984afc918e16)
+
 Right clicking the shortcut this time should direct you the desired path:
-![image](https://github.com/user-attachments/assets/44a2ec08-a0b3-44d5-b28c-b84cb896ccee)
+![Picturesdsd9](https://github.com/user-attachments/assets/1c85bce7-fc63-46e2-b5f1-ce3757acb475)
 
 ### Manage App Execution Aliases
 If `python` commands do not work or you receive Microsoft Store messages/redirects, Python and its Apps Installer are conflicting. The simplest way to overcome this problem is to write `py` or `python3` instead of `python`.
