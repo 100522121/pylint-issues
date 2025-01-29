@@ -3,24 +3,24 @@ Quick guide on solving [Pylint](https://github.com/pylint-dev/pylint) issues in 
 
 #### General info:
 - Verify *pip* is installed in your device.
-- Try updating your *pip* to the latest version available.
+- Try updating *pip* to the latest version available.
 - After every solution applied, **restart** Pycharm.
 
 ## Check if Pylint is installed
-Try writing the following command in the Terminal. If it states Pylint is not installed, try it again by referring to this [steps](#Pylint-installed-but-unable-to-find-syntax-mistakes).
+Try writing the following command in the Terminal. If it states Pylint is not installed, refer to this [steps](#Pylint-installed-but-unable-to-find-syntax-mistakes).
 ```
 pip list | grep pylint
 ```
 Alternatively, try to find Pylint's installation path using the command `where pylint`, or install the Pylint package (apart from the plugin) if it was not automatically installed when installing the plugin.
 
 ## Pylint installed but unable to find syntax mistakes
-If Pylint is already installed and its overlay can be accessed, but does not find any error in a errory-python code, then uninstall it from `File > Settings > Plugins > Pylint > Uninstall`. Then, reinstall it but specifically with the command:
+If Pylint is already installed and its overlay can be accessed, but does not find any error in any code, uninstall it from `File > Settings > Plugins > Pylint > Uninstall`. Then, reinstall it specifically with the command:
 ```
 python pip install pylint
 ```
 
 ## Instalation issues
-If pip or any other Python commands are not being recognised, it could be due to these reasons:
+If *pip* or any other Python commands are not being recognised, it could be due to these reasons:
 
 ### System Environment variables
 The existence of *python.exe* is not recognised, for which you have to find and copy its installation path. Usually you can find it in the Windows taskbar search bar (or by only pressing the Windows key) and right clicking to `open file location`. It is vital to mention that this can direct you to the Shortcut rather than the actual installation path:
