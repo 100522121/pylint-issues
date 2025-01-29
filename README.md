@@ -1,4 +1,4 @@
-# pylint-issues
+# Pylint Issues
 Quick guide on solving pylint issues. 
 
 ## Check if Pylint is installed
@@ -17,18 +17,18 @@ python pip install pylint
 ## Instalation issues
 If pip or any other Python commands are not being recognised, it could be due to these reasons:
 
-### General info:
+#### General info:
 - Verify *pip* is installed in your device.
 - Try updating your *pip* to the latest version available.
 - After every solution applied, **restart** Pycharm.
 
-#### System Environment variables
+### System Environment variables
 The existence of *python.exe* is not recognised, for which you have to find and copy its installation path. Usually you can find it in the Windows taskbar search bar (or by only pressing the Windows key) and right clicking to `open file location`. It is vital to mention that this can direct you to the Shortcut rather than the actual installation path:
 ![image](https://github.com/user-attachments/assets/bfe7cdaa-2a99-410a-b51f-baa89a91135a)
 Right clicking the shortcut this time should direct you the desired path:
 ![image](https://github.com/user-attachments/assets/44a2ec08-a0b3-44d5-b28c-b84cb896ccee)
 
-#### Manage App Execution Aliases
+### Manage App Execution Aliases
 If `python` commands do not work or you receive Microsoft Store messages/redirects, Python and its Apps Installer are conflicting. The simplest way to overcome this problem is to write `py` or `python3` instead of `python`.
 
 For a permanent solution, go to `Settings > Apps > Advanced Settings > **App Execution Aliases**` and disable all Python App Installers that appear.
