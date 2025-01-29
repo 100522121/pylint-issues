@@ -39,6 +39,6 @@ For a permanent solution, go search directly for **Manage App Execution Aliases*
 
 ## Farewell
 For more information, refer to some StackOverflow queries:
-[1] [Which files get installed when 'pip' installing 'pylint'?](https://stackoverflow.com/questions/51358987/which-files-get-installed-when-pip-installing-pylint)
-[2] [Python was not found; run without arguments to install from the Microsoft Store](https://stackoverflow.com/questions/65348890/python-was-not-found-run-without-arguments-to-install-from-the-microsoft-store)
-[3] [Pip installed (and updated), but can't be found](https://stackoverflow.com/questions/71110397/pip-installed-and-updated-but-cant-be-found?)
+- [Which files get installed when 'pip' installing 'pylint'?](https://stackoverflow.com/questions/51358987/which-files-get-installed-when-pip-installing-pylint)
+- [Python was not found; run without arguments to install from the Microsoft Store](https://stackoverflow.com/questions/65348890/python-was-not-found-run-without-arguments-to-install-from-the-microsoft-store)
+- [Pip installed (and updated), but can't be found](https://stackoverflow.com/questions/71110397/pip-installed-and-updated-but-cant-be-found?)
